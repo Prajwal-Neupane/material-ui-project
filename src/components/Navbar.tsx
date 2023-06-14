@@ -50,7 +50,7 @@ const Navbar = () => {
     setOpenMenu(!openMenu);
   };
   return (
-    <AppBar position="static">
+    <AppBar position="fixed">
       <StyledToolBar>
         <Typography sx={{ display: { xs: "none", sm: "block" } }} variant="h5">
           mySocial

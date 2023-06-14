@@ -10,5 +10,6 @@ export const theme = createTheme({
       main: "#025464",
       light: "#E8AA42",
     },
+    mode: "dark",
   },
 });
